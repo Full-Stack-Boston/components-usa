@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Components USA (Archive Demo) - Electronic Components Sourcing</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Historical archive demo of Components USA marketing layouts by Full Stack Boston. Not a live production site.">
+    <meta name="keywords" content="electronic components, sourcing, obsolete components, long lead time, Components USA, military components, medical components, aerospace components, aviation components">
+    <meta name="author" content="Full Stack Boston">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Components USA (Archive Demo)">
+    <meta property="og:description" content="Historical archive demo — not a live production site. Built by Full Stack Boston.">
+    <meta property="og:image" content="images/cusaLogoWhite.png">
+    <meta property="og:url" content="https://components-usa.fullstackboston.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Components USA (Archive Demo)">
+    <meta name="twitter:description" content="Historical archive demo — not a live production site. Built by Full Stack Boston.">
+    <meta name="twitter:image" content="images/cusaLogoWhite.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+    <script type="module" src="js/firebase.js"></script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+      .demo-banner {
+        position: sticky; top: 0; z-index: 10000;
+        display: flex; flex-wrap: wrap; gap: 0.35rem 0.75rem;
+        align-items: center; justify-content: center;
+        padding: 0.65rem 1rem; background: #111827; color: #f3f4f6;
+        font-family: "IBM Plex Mono", "Courier New", monospace;
+        font-size: 0.85rem; line-height: 1.4; text-align: center;
+        border-bottom: 2px solid #38bdf8;
+      }
+      .demo-banner a { color: #7dd3fc; }
+      .demo-banner a:hover { color: #e0f2fe; }
+    </style>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="cusaLogoWhiteBG180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="cusaLogoWhiteBG32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="cusaLogoWhiteBG16.png">
+</head>
+<body id="top">
+    <aside class="demo-banner" role="status">
+        <strong>Archive demo</strong>
+        <span>
+            — Historical Components USA marketing layout (prominent). Not a live client site.
+            <a href="/compact/">View compact layout</a>
+            ·
+            <a href="https://fullstackboston.com">Full Stack Boston</a>
+        </span>
+    </aside>
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+        <!-- # site header
+        ================================================== -->
+        <header class="s-header">
+            <div class="s-header__logo">
+                <a class="logo" href="index.html">
+                    <img src="images/cusaLogoWhite.png" alt="Components USA">
+                </a>
+            </div>
+            <a class="s-header__menu-toggle" href="#0" class="">
+                <span class="s-header__menu-text">Menu</span>
+                <span class="s-header__menu-icon"></span>
+            </a>
+            <nav class="s-header__nav">
+                <a href="#0" class="s-header__nav-close-btn" title="close"><span>Close</span></a>
+                <h3>Components USA.</h3>
+                <ul class="s-header__nav-list">
+                    <li><a href="#intro" class="smoothscroll">Intro</a></li>
+                    <li><a href="#about" class="smoothscroll">About</a></li>
+                    <li><a href="#services" class="smoothscroll">Services</a></li>
+                    <li><a href="#portfolio" class="smoothscroll">Industries</a></li>
+                    <li><a href="#contact" class="smoothscroll">Contact</a></li>
+                </ul>
+                <p>
+                    Need a reliable source for electronic components?
+                    Components USA is your solution. <a href="#contact">Contact Us</a> now.<br /><br />
+                    <span class="text-highlight">We pick up where others give up!</span>
+                </p>
+                <a href="#contact" class="btn btn--primary u-fullwidth">
+                    Let's Talk
+                </a>
+            </nav>
+        </header> <!-- end s-header -->
+
+        <!-- # site-content
+        ================================================== -->
+        <section id="content" class="s-content">
+            <!-- intro
+            ----------------------------------------------- -->
+            <section id="intro" class="s-intro target-section">
+                <div class="s-intro__bg rellax" data-rellax-speed="-5"></div>
+                <div class="row s-intro__content">
+                    <div class="column lg-12 s-intro__content-inner">
+                        <h3 class="s-intro__pretitle">Electronic Components Sourcing</h3>
+                        <h1 class="s-intro__title">
+                        Components USA</h1>
+                        <h3 class="s-intro__pretitle">We pick up where others give up!
+                        </h3>
+                        <div class="s-intro__more">
+                            <a class="smoothscroll btn btn--stroke s-intro__more-btn" href="#about">
+                                Learn More
+                            </a>
+                        </div>
+                    </div> <!-- s-intro__content-inner -->
+                </div> <!-- s-intro__content -->
+
+                <div class="s-intro__scroll">
+                    <a href="#about" class="smoothscroll">
+                        <span>Scroll Down</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: rotate(180deg);"><path d="M21 11H6.414l5.293-5.293-1.414-1.414L2.586 12l7.707 7.707 1.414-1.414L6.414 13H21z"></path></svg>
+                    </a>
+                    <a href="#contact" class="smoothscroll">
+                        <span>Inquire Now</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: rotate(180deg);"><path d="M21 11H6.414l5.293-5.293-1.414-1.414L2.586 12l7.707 7.707 1.414-1.414L6.414 13H21z"></path></svg>
+                    </a>
+                </div> <!-- s-intro__scroll -->
+            </section> <!-- end s-intro -->
+
+            <!-- about
+            ----------------------------------------------- -->
+            <section id="about" class="s-about target-section">
+                <div class="row s-about__content" data-animate-block>
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle" data-animate-el>About Us</h2>
+                        <p class="s-about__desc" data-animate-el>
+                            <span>Components USA</span> was established in historic Salem, MA in 2008 and is driven by 33 years of sourcing experience.
+                        </p>
+                    </div> <!-- end column  -->
+                </div> <!-- end s-about__content  -->
+            </section> <!-- end about -->
+
+            <!-- services
+            ----------------------------------------------- -->
+            <section id="services" class="s-services">
+                <div class="s-services__bg"></div>
+                <div class="row narrow section-header section-header--dark has-bottom-sep">
+                    <div class="column lg-12">
+                        <h3 class="text-pretitle">Services</h3>
+                        <h1 class="text-display-title">What We Do.</h1>
+                        <p class="lead">We supply active and passive electronic components from commercial grade to full military level. We also have expertise in connectors, switches, wire and cable. You can expect quick action from us which can result with parts on your dock in 24 to 48 hours in critical situations.</p>
+                    </div> <!-- end column -->
+                </div> <!-- end section header -->
+                <div class="s-services__content">
+                    <div class="row services-list block-lg-one-half block-tab-whole" data-animate-block>
+                        <div class="column service-item" data-animate-el>
+                            <span class="service-icon-block">
+                                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><img src="images/hourglass.svg" width="45" height="45" style="padding: 0; margin: 0; margin-left: -45px;"/></svg>
+                            </span>
+                            <div class="service-content">
+                                <h3 class="h4">Long Lead Time</h3>
+                                <p>
+									We excel in providing solutions for components with long lead times.
+                                </p>
+                            </div>
+                        </div> <!-- end service-item -->
+                        <div class="column service-item" data-animate-el>
+                            <span class="service-icon-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><img src="images/obsolete.svg" width="45" height="45" style="padding: 0; margin: 0; margin-left: -45px;" /></svg>
+                            </span>
+                            <div class="service-content">
+                                <h3 class="h4">Obsolete Components</h3>
+                                <p>
+									We specialize in sourcing obsolete components that are hard to find.
+                                </p>
+                            </div>
+                        </div> <!-- end service-item -->
+						<div class="column service-item" data-animate-el>
+                            <span class="service-icon-block">
+                                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M10 16v2.5c0 2.483-2.017 4.5-4.5 4.5-2.484 0-4.5-2.017-4.5-4.5 0-2.484 2.016-4.5 4.5-4.5h2.5v-4h-2.5c-2.484 0-4.5-2.016-4.5-4.5 0-2.483 2.016-4.5 4.5-4.5 2.483 0 4.5 2.017 4.5 4.5v2.5h4v-2.5c0-2.483 2.017-4.5 4.5-4.5 2.484 0 4.5 2.017 4.5 4.5 0 2.484-2.016 4.5-4.5 4.5h-2.5v4h2.5c2.484 0 4.5 2.016 4.5 4.5 0 2.483-2.016 4.5-4.5 4.5-2.483 0-4.5-2.017-4.5-4.5v-2.5h-4zm-2 0h-2.5c-1.379 0-2.5 1.122-2.5 2.5s1.121 2.5 2.5 2.5 2.5-1.122 2.5-2.5v-2.5zm10.5 0h-2.5v2.5c0 1.378 1.121 2.5 2.5 2.5s2.5-1.122 2.5-2.5-1.121-2.5-2.5-2.5zm-4.5-6h-4v4.132h4v-4.132zm-6-2v-2.5c0-1.378-1.121-2.5-2.5-2.5s-2.5 1.122-2.5 2.5 1.121 2.5 2.5 2.5h2.5zm10.5 0c1.379 0 2.5-1.122 2.5-2.5s-1.121-2.5-2.5-2.5-2.5 1.122-2.5 2.5v2.5h2.5z"/></svg>
+                            </span>
+                            <div class="service-content">
+                                <h3 class="h4">Hard to Find</h3>
+                                <p>
+									We thrive on the challenge of sourcing hard-to-find components.
+                                </p>
+                            </div>
+                        </div> <!-- end service-item -->
+                        <div class="column service-item" data-animate-el>
+                            <span class="service-icon-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l-11 6v12.131l11 5.869 11-5.869v-12.066l-11-6.065zm-1 21.2l-6.664-3.555 4.201-2.801c1.08-.719-.066-2.359-1.243-1.575l-4.294 2.862v-7.901l8 4.363v8.607zm-6.867-14.63l6.867-3.746v4.426c0 1.323 2 1.324 2 0v-4.415l6.91 3.811-7.905 4.218-7.872-4.294zm8.867 6.03l8-4.269v7.8l-4.263-2.842c-1.181-.785-2.323.855-1.245 1.574l4.172 2.781-6.664 3.556v-8.6z"/></svg>
+                            </span>
+                            <div class="service-content">
+                                <h3 class="h4">Counterfeit Mitigation</h3>
+                                <p>
+									We implement stringent counterfeit mitigation plans to ensure component authenticity.
+                                </p>
+                            </div>
+                        </div> <!-- end service-item -->
+						<div class="column service-item" data-animate-el>
+                            <span class="service-icon-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 4c-1.5 0-2.662 1.685-1.598 3.194.535.759.406 1.216.045 1.749-.765 1.127-1.872 2.057-3.447 2.057-2.521 0-3.854-2.083-4.131-3.848-.096-.614-.15-1.074.436-1.644.402-.39.695-.904.695-1.508 0-1.104-.896-2-2-2s-2 .896-2 2c0 .604.293 1.118.695 1.508.586.57.531 1.03.436 1.644-.277 1.765-1.61 3.848-4.131 3.848-1.575 0-2.682-.93-3.447-2.058-.362-.532-.491-.989.045-1.748 1.064-1.509-.098-3.194-1.598-3.194-1.104 0-2 .896-2 2 0 .797.464 1.495 1.144 1.808.825.38.856 1.317.856 2.171v12.021h20v-12.021c0-.854.031-1.792.856-2.171.68-.313 1.144-1.011 1.144-1.808 0-1.104-.896-2-2-2zm-10 6.297c1.977 2.96 5.58 3.354 8 1.851v3.852h-16v-3.852c2.398 1.49 6.01 1.131 8-1.851zm-8 9.703v-2h16v2h-16z"/></svg>
+                            </span>
+                            <div class="service-content">
+                                <h3 class="h4">Problem Solving</h3>
+                                <p>
+									We help solve your electronic components sourcing problems by searching our well-established, worldwide supply chains. If there is a solution for you out there, we will find it. We often pick up where most others give up.
+                                </p>
+                            </div>
+                        </div> <!-- end service-item -->
+                        <div class="column service-item" data-animate-el>
+                            <span class="service-icon-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 8c.552 0 1 .449 1 1s-.448 1-1 1-1-.449-1-1 .448-1 1-1zm0-2c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3zm-10 6c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3zm10-8c.343 0 .677.035 1 .101v-2.101c0-.552-.447-1-1-1s-1 .448-1 1v2.101c.323-.066.657-.101 1-.101zm-10 6c.343 0 .677.035 1 .101v-8.101c0-.552-.447-1-1-1s-1 .448-1 1v8.101c.323-.066.657-.101 1-.101zm10 4c-.343 0-.677-.035-1-.101v8.101c0 .552.447 1 1 1s1-.448 1-1v-8.101c-.323.066-.657.101-1 .101zm-10 6c-.343 0-.677-.035-1-.101v2.101c0 .552.447 1 1 1s1-.448 1-1v-2.101c-.323.066-.657.101-1 .101z"/></svg>
+                            </span>
+                            <div class="service-content">
+                                <h3 class="h4">Creative Solutions</h3>
+                                <p>
+									With over 33 years of sourcing experience, we are able to develop creative engineering-driven solutions that open new supply options in even the most difficult situations. We work with many independent testing facilities worldwide and can develop a counterfeit mitigation plan that will ensure the quality and authenticity of components we supply.
+                                </p>
+                            </div>
+                        </div> <!-- end service-item -->
+                    </div> <!-- end services-list -->
+                </div> <!-- end services-content -->
+            </section> <!-- end services -->
+
+            <!-- portfolio
+            ----------------------------------------------- -->
+            <section id="portfolio" class="s-portfolio">
+                <div class="s-portfolio__header">
+                    <div class="row narrow section-header section-header--dark has-bottom-sep">
+                        <div class="column lg-12">
+                            <h3 class="text-pretitle">Industries</h3>
+                            <h1 class="text-display-title">We Serve Multiple Industries</h1>
+
+                            <p class="lead">
+								Components USA is proud to service the industries below:
+                            </p>
+
+                        </div> <!-- end column -->
+                    </div> <!-- end section header -->
+                </div> <!-- end s-portfolio__header -->
+                <div class="row s-portfolio__content" data-animate-block>
+                    <div class="column lg-12">
+                        <div class="folio-list bricks">
+                            <div class="brick folio-item"   data-animate-el>
+                                <div class="folio-item__thumb">
+                                    <a class="folio-item__thumb-link" href="images/opticalnetworking.jpg" Title="Optical Networking" data-size="1050x700">
+                                        <img src="images/opticalnetworking.jpg"
+                                             alt="Optical Networking">
+                                    </a>
+                                </div>
+                                <div class="folio-item__info">
+                                    <div class="folio-item__cat">Optical Networking, Fiber Optics, Data Transmission</div>
+                                    <h4 class="folio-item__title">Optical Networking</h4>
+                                </div>
+                                <div class="folio-item__caption">
+                                    <p>Enhance your network capabilities with our advanced optical networking components. We provide swift solutions for seamless communication. Inquire with us for more details and to place your order.</p>
+                                </div>
+                             </div> <!-- end brick-->
+                            <div class="brick folio-item" data-animate-el>
+                                <div class="folio-item__thumb">
+                                    <a class="folio-item__thumb-link" href="images/satellite.jpg" Title="Satellite Communications" data-size="1050x700">
+                                        <img src="images/satellite.jpg"
+                                             alt="Satellite Communications">
+                                    </a>
+                                </div>
+                                <div class="folio-item__info">
+                                    <div class="folio-item__cat">Satellite Communications, Space Technology, Signal Processing</div>
+                                    <h4 class="folio-item__title">Satellite Communications</h4>
+                                </div>
+                                <div class="folio-item__caption">
+                                    <p>Optimize your satellite communication systems with our reliable components. We offer fast solutions to meet your operational needs. Inquire with us for more details and to place your order.</p>
+                                </div>
+                            </div> <!-- end brick-->
+                            <div class="brick folio-item" data-animate-el>
+                                <div class="folio-item__thumb">
+                                    <a class="folio-item__thumb-link" href="images/medical.jpg" Title="Medical" data-size="1050x700">
+                                        <img src="images/medical.jpg"
+                                             alt="Medical">
+                                    </a>
+                                </div>
+                                <div class="folio-item__info">
+                                    <div class="folio-item__cat">Medical, Durable Medical Equipment, Healthcare Solutions</div>
+                                    <h4 class="folio-item__title">Medical</h4>
+                                </div>
+                                <div class="folio-item__caption">
+                                    <p>Deliver excellence in healthcare with our trusted medical components. We ensure high quality and quick delivery. Inquire with us for more details and to place your order.</p>
+                                </div>
+                            </div> <!-- end brick-->
+                            <div class="brick folio-item" data-animate-el>
+                                <div class="folio-item__thumb">
+                                    <a class="folio-item__thumb-link" href="images/avionics.jpg" Title="Avionics" data-size="1050x700">
+                                        <img src="images/avionics.jpg"
+                                             alt="Avionics">
+                                    </a>
+                                </div>
+                                <div class="folio-item__info">
+                                    <div class="folio-item__cat">Avionics, Flight Control Systems, Navigation Equipment</div>
+                                    <h4 class="folio-item__title">Avionics</h4>
+                                </div>
+                                <div class="folio-item__caption">
+                                    <p>Experience unparalleled reliability and performance with our top-tier avionics components. We ensure swift delivery to keep your systems flying high. Inquire with us for more details and to place your order.</p>
+                                </div>
+                            </div> <!-- end brick-->
+                            <div class="brick folio-item" data-animate-el>
+                                <div class="folio-item__thumb">
+                                    <a class="folio-item__thumb-link" href="images/aerospace.jpeg" Title="Aerospace" data-size="1050x700">
+                                        <img src="images/aerospace.jpeg"
+                                             alt="Aerospace">
+                                    </a>
+                                </div>
+                                <div class="folio-item__info">
+                                    <div class="folio-item__cat">Aerospace, Aircraft Components, Defense Systems</div>
+                                    <h4 class="folio-item__title">Aerospace</h4>
+                                </div>
+                                <div class="folio-item__caption">
+                                    <p>Our aerospace components meet the highest standards of safety and performance. Discover how we can support your mission-critical operations. Inquire with us for more details and to place your order.</p>
+                                </div>
+                            </div> <!-- end brick-->
+                            <div class="brick folio-item" data-animate-el>
+                                <div class="folio-item__thumb">
+                                    <a class="folio-item__thumb-link" href="images/telecommunications.jpg" Title="Telecommunications" data-size="1050x700">
+                                        <img src="images/telecommunications.jpg"
+                                             alt="Telecommunications">
+                                    </a>
+                                </div>
+                                <div class="folio-item__info">
+                                    <div class="folio-item__cat">Telecommunications, Networking Equipment, Communication Systems</div>
+                                    <h4 class="folio-item__title">Telecommunications</h4>
+                                </div>
+                                <div class="folio-item__caption">
+                                    <p>Stay connected with our high-quality telecommunications components designed for optimal performance. Explore our solutions tailored to your needs. Inquire with us for more details and to place your order.</p>
+                                </div>
+                            </div> <!-- end brick-->
+							<div class="brick folio-item" data-animate-el>
+                                <div class="folio-item__thumb">
+                                    <a class="folio-item__thumb-link" href="images/usmilitary.jpg" Title="Military Contractors" data-size="1050x700">
+                                        <img src="images/usmilitary.jpg"
+                                             alt="Military Contractors">
+                                    </a>
+                                </div>
+                                <div class="folio-item__info">
+                                    <div class="folio-item__cat">Military Contractors, Defense Equipment, Tactical Gear</div>
+                                    <h4 class="folio-item__title">Military Contractors</h4>
+                                </div>
+                                <div class="folio-item__caption">
+                                    <p>We supply military-grade components to support defense and security operations. Trust in our expertise for critical missions. Inquire with us for more details and to place your order.</p>
+                                </div>
+                            </div> <!-- end brick-->
+							<div class="brick folio-item" data-animate-el>
+                                <div class="folio-item__thumb">
+                                    <a class="folio-item__thumb-link" href="images/robotics.jpg" Title="Robotics" data-size="1050x700">
+                                        <img src="images/robotics.jpg"
+                                             alt="Robotics">
+                                    </a>
+                                </div>
+                                <div class="folio-item__info">
+                                    <div class="folio-item__cat">Robotics, Automation, Artificial Intelligence</div>
+                                    <h4 class="folio-item__title">Robotics</h4>
+                                </div>
+                                <div class="folio-item__caption">
+                                    <p>Power your robotics innovations with our advanced components. We provide solutions that drive performance and precision. Inquire with us for more details and to place your order.</p>
+                                </div>
+                            </div> <!-- end brick-->
+                        </div> <!-- end folio-list, bricks -->
+                    </div> <!-- end column  -->
+                </div> <!-- end s-portfolio__content -->
+            </section> <!-- end portfolio -->
+
+            <!-- contact
+            ----------------------------------------------- -->
+            <section id="contact" class="s-contact target-section">
+                <div class="row section-header section-header--dark">
+                    <div class="column lg-12">
+                        <h3 class="text-pretitle">Get In Touch</h3>
+                        <h1 class="text-display-title">
+                            Reach out to Components USA for all your electronic component sourcing needs. We are here to help you find the right solutions for your specific requirements. <a href="mailto:inquire@components-usa.com">inquire@components-usa.com</a>.
+                        </h1>
+                    </div> <!-- end column -->
+                </div> <!-- end section header -->
+                <div class="row s-contact__infos">
+                    <div class="column lg-4 md-6 stack-on-900 s-contact__block-address">
+                        <h5 class="with-top-line">Mail Us</h5>
+                        <p>
+                        1 Fairview Ave<br>
+                        Salem, Massachusetts <br>
+                        01970 US
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-6 stack-on-900 s-contact__block-social">
+                        <h5 class="with-top-line">Hours of Operation</h5>
+                        <ul class="s-contact__list">
+                            <li>Mon - Fri: 8AM-6PM EST</li>
+                            <li>Sat &amp; Sun: 6AM-12PM EST</li>
+                            <li>US Holidays: Closed</li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 stack-on-900 s-contact__block-number">
+                        <h5 class="with-top-line">Contact Us</h5>
+                        <ul class="s-contact__list">
+                            <li><a href="mailto:hello@components-usa.com">hello@components-usa.com</a></li>
+                            <li><a href="tel:+19787403800">+1 978 740 3800</a></li>
+                            <li><a href="fax:+19787403801">+1 978 740 3801</a></li>
+                        </ul>
+                    </div>
+                </div> <!-- end s-contact__infos -->
+                <div class="row s-contact__bottom u-fullwidth">
+                    <div class="column lg-12 tab-12 s-contact__mail-block u-fullwidth">
+                        <a href="mailto:hello@components-usa.com" class="btn btn--stroke btn--mail u-fullwidth">
+                            Let's Talk
+                        </a>
+                    </div>
+                </div> <!-- end s-contact__button -->
+            </section> <!-- end contact -->
+        </section>
+        <!-- end s-content -->
+
+        <!-- footer
+        ================================================== -->
+        <footer id="colophon" class="s-footer">
+            <div class="row">
+                <div class="column lg-12 ss-copyright">
+                    <span>© Copyright Components USA, LLC 2024</span>
+                    <span>Made with &hearts; by <a href="https://fullstackboston.com">Full Stack Boston</a></span>
+                </div>
+            </div>
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+        </footer> <!-- end s-footer -->
+    </div> <!-- end s-pagewrap -->
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+				<button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end photoSwipe background -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

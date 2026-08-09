@@ -1,0 +1,22 @@
+{
+  "name": "components-usa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "lint": "oxlint scripts/build.mjs prominent.components-usa.com/js/firebase-config.js prominent.components-usa.com/js/firebase-init.js prominent.components-usa.com/js/site-behavior.js compact.components-usa.com/js/firebase-config.js compact.components-usa.com/js/firebase-init.js compact.components-usa.com/js/site-behavior.js",
+    "lint:prod": "npm run lint",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.10",
+    "jsdom": "^27.0.1",
+    "oxlint": "^1.71.0",
+    "vitest": "^4.1.10"
+  }
+}

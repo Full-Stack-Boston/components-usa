@@ -1,0 +1,9 @@
+services:
+  components-usa:
+    container_name: components-usa
+    build: .
+    image: components-usa:local
+    restart: unless-stopped
+    ports:
+      # fsb-03 Tailscale bind (see nathan docs/PORTS.md)
+      - "100.64.0.7:8098:80"

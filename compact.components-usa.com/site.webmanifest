@@ -1,0 +1,55 @@
+{
+	"name":"Components USA",
+	"short_name":"CUSA",
+	"icons": [
+		{
+			"src": "cusaLogoWhiteBG16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "cusaLogoWhiteBG32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "cusaLogoWhiteBG48.png",
+			"sizes": "48x48",
+			"type": "image/png"
+		},
+		{
+			"src": "cusaLogoWhiteBG64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "cusaLogoWhiteBG128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "cusaLogoWhiteBG180.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		},
+		{
+			"src": "cusaLogoWhiteBG192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "cusaLogoWhiteBG256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "cusaLogoWhiteBG512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+  	],
+  	"start_url": "index.html",
+	"theme_color":"#07617D",
+	"background_color":"#000000",
+	"display":"standalone"
+}

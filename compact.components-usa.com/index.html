@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<!--- basic page needs
+	================================================== -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Components USA (Archive Demo) - Electronic Components Sourcing</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Historical archive demo of Components USA marketing layouts by Full Stack Boston. Not a live production site.">
+    <meta name="keywords" content="electronic components, sourcing, obsolete components, long lead time, Components USA, military components, medical components, aerospace components, aviation components">
+    <meta name="author" content="Full Stack Boston">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Components USA Compact (Archive Demo)">
+    <meta property="og:description" content="Historical archive demo — not a live production site. Built by Full Stack Boston.">
+    <meta property="og:image" content="images/cusaLogoWhite.png">
+    <meta property="og:url" content="https://components-usa.fullstackboston.com/compact/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Components USA Compact (Archive Demo)">
+    <meta name="twitter:description" content="Historical archive demo — not a live production site. Built by Full Stack Boston.">
+    <meta name="twitter:image" content="images/cusaLogoWhite.png">
+	<link rel="manifest" href="site.webmanifest">
+
+	<script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/vendor.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+	  .demo-banner {
+	    position: sticky; top: 0; z-index: 10000;
+	    display: flex; flex-wrap: wrap; gap: 0.35rem 0.75rem;
+	    align-items: center; justify-content: center;
+	    padding: 0.65rem 1rem; background: #111827; color: #f3f4f6;
+	    font-family: "IBM Plex Mono", "Courier New", monospace;
+	    font-size: 0.85rem; line-height: 1.4; text-align: center;
+	    border-bottom: 2px solid #38bdf8;
+	  }
+	  .demo-banner a { color: #7dd3fc; }
+	  .demo-banner a:hover { color: #e0f2fe; }
+	</style>
+
+	<!-- script
+	================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script type="module" src="js/firebase.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="cusaLogoWhiteBG180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="cusaLogoWhiteBG32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="cusaLogoWhiteBG16.png">
+</head>
+<body>
+	<aside class="demo-banner" role="status">
+		<strong>Archive demo</strong>
+		<span>
+			— Historical Components USA marketing layout (compact). Not a live client site.
+			<a href="/">View prominent layout</a>
+			·
+			<a href="https://fullstackboston.com">Full Stack Boston</a>
+		</span>
+	</aside>
+	<!-- header
+	================================================== -->
+	<header id="main-header">
+		<div class="row">
+			<div class="logo">
+				<a href="index.html">Components USA</a>
+			</div>
+			<nav id="nav-wrap">
+				<a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+					<span class="menu-icon">Menu</span>
+				</a>
+				<a class="mobile-btn" href="#" title="Hide navigation">
+					<span class="menu-icon">Menu</span>
+				</a>
+				<ul id="nav" class="nav">
+					<li><a class="smoothscroll" href="#hero">Home.</a></li>
+					<li><a class="smoothscroll" href="#services">Services.</a></li>
+					<li class="current"><a class="smoothscroll" href="#portfolio">Industries.</a></li>
+					<li><a class="smoothscroll" href="#about">About.</a></li>
+					<li><a class="smoothscroll" href="#contact">Contact.</a></li>
+				</ul> <!-- end #nav -->
+			</nav> <!-- end #nav-wrap -->
+		</div>
+	</header> <!-- end header -->
+
+	<!-- homepage hero
+	================================================== -->
+	<section id="hero">
+		<div class="row hero-content">
+			<div class="twelve columns hero-container">
+				<!-- hero-slider start-->
+				<div id="hero-slider" class="flexslider">
+					<ul class="slides">
+						<!-- slide -->
+						<li>
+							<div class="flex-caption">
+									<h1 class="">Components USA</h1>
+									<h3 class="">We Solve Your Electronic Component Sourcing Problems!<br /><br />
+										We pick up where others give up! We develop creative, engineering-driven solutions that open new supply options in even the most difficult situations.
+									</h3>
+								</div>
+						</li>
+					</ul>
+				</div> <!-- end hero-slider -->
+			</div> <!-- end twelve columns-->
+		</div> <!-- end row -->
+		<div id="more">
+			<a class="smoothscroll" href="#services">More About Us<i class="fa fa-angle-down"></i></a>
+		</div>
+	</section> <!-- end homepage hero -->
+
+	<!-- services
+	================================================== -->
+	<section id="services">
+		<div class="row section-head">
+			<div class="twelve columns">
+				<h1>Services<span>.</span></h1>
+				<hr />
+				<p>Components USA provides comprehensive sourcing solutions for electronic components. We support a wide range of needs from commercial to military specifications, ensuring quick and reliable delivery.
+				</p>
+			</div>
+		</div> <!-- end section-head -->
+		<div class="row mobile-no-padding">
+			<div class="service-list bgrid-third s-bgrid-half tab-bgrid-whole group">
+				<div class="bgrid">
+
+					<h3>Commercial Grade Components.</h3>
+					<div class="service-content">
+						<p>High-quality commercial grade components for various industries.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+				<div class="bgrid">
+					<h3>Military Level Components.</h3>
+					<div class="service-content">
+						<p>Specialized components that meet stringent military standards.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+				<div class="bgrid">
+					<h3>Connectors &amp; Switches.</h3>
+					<div class="service-content">
+						<p>Expertise in sourcing various types of connectors and switches.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+				<div class="bgrid">
+					<h3>Wire &amp; Cable.</h3>
+					<div class="service-content">
+						<p>Wide range of wire and cable solutions for all your needs.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+				<div class="bgrid">
+					<h3>Fast Delivery.</h3>
+					<div class="service-content">
+						<p>Parts can be delivered to your dock in 24 to 48 hours in critical situations.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+				<div class="bgrid">
+					<h3>Counterfeit Mitigation.</h3>
+					<div class="service-content">
+						<p>Plans to ensure the quality and authenticity of supplied components.
+						</p>
+					</div>
+				</div> <!-- end bgrid -->
+			</div> <!-- end service-list -->
+		</div> <!-- end row -->
+	</section> <!-- end services -->
+
+	<!-- portfolio
+	================================================== -->
+	<section id="portfolio">
+		<div class="row section-head">
+			<div class="twelve columns">
+				<h1>Industries<span>.</span></h1>
+				<hr />
+				<p>We proudly serve any and all industries requiring electronic components.</p>
+				<p>Components USA is proud to have serviced and continue to service the industries below:</p>
+			</div>
+		</div> <!-- end section-head -->
+		<div class="row items">
+			<!-- portfolio-wrapper -->
+			<div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-01">
+							<img src="images/avionics.jpg" alt="Avionics">
+							<div class="overlay"></div>
+							<div class="portfolio-item-meta">
+								<h5>Avionics</h5>
+								<p>Avionics</p>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div> <!-- item end -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-02">
+							<img src="images/aerospace.jpeg" alt="Aerospace">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Aerospace</h5>
+									<p>Aerospace</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div> <!-- item end -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-03">
+							<img src="images/telecommunications.jpg" alt="Telecommunications">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Telecommunications</h5>
+									<p>Telecommunications</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div> <!-- item end -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-04">
+							<img src="images/opticalnetworking.jpg" alt="Optical Networking">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Optical Networking</h5>
+									<p>Optical Networking</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div> <!-- item end -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-05">
+							<img src="images/usmilitary.jpg" alt="Military Contractors">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Military Contractors</h5>
+									<p>Military Contractors</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div> <!-- item end -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-06">
+							<img src="images/satellite.jpg" alt="Satellite Communications">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Satellite Communications</h5>
+									<p>Satellite Communications</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div> <!-- item end -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-07">
+							<img src="images/robotics.jpg" alt="Robotics">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Robotics</h5>
+									<p>Robotics</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div> <!-- item end -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-08">
+							<img src="images/medical.jpg" alt="Medical">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Medical</h5>
+									<p>Medical</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div> <!-- item end -->
+			</div> <!-- end portfolio-wrapper -->
+
+			<!-- modal popup
+			========================================================= -->
+			<div id="modal-01" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/avionics.jpg" alt="Avionics" />
+				</div>
+				<div class="description-box">
+					<h4>Avionics</h4>
+					<p>Experience unparalleled reliability and performance with our top-tier avionics components. We ensure swift delivery to keep your systems flying high. Inquire with us for more details and to place your order.</p>
+					<span class="categories">Avionics, Flight Control Systems, Navigation Equipment</span>
+				</div>
+				<div class="link-box group">
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div><!-- modal-01 end -->
+			<div id="modal-02" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/aerospace.jpeg" alt="Aerospace" />
+				</div>
+				<div class="description-box">
+					<h4>Aerospace</h4>
+					<p>Our aerospace components meet the highest standards of safety and performance. Discover how we can support your mission-critical operations. Inquire with us for more details and to place your order.</p>
+					<span class="categories">Aerospace, Aircraft Components, Defense Systems</span>
+				</div>
+				<div class="link-box">
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div><!-- modal-02 end -->
+			<div id="modal-03" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/telecommunications.jpg" alt="Telecommunications" />
+				</div>
+				<div class="description-box">
+					<h4>Telecommunications</h4>
+					<p>Stay connected with our high-quality telecommunications components designed for optimal performance. Explore our solutions tailored to your needs. Inquire with us for more details and to place your order.</p>
+					<span class="categories">Telecommunications, Networking Equipment, Communication Systems</span>
+				</div>
+				<div class="link-box">
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div><!-- modal-03 end -->
+			<div id="modal-04" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/opticalnetworking.jpg" alt="Optical Networking" />
+				</div>
+				<div class="description-box">
+					<h4>Optical Networking</h4>
+					<p>Enhance your network capabilities with our advanced optical networking components. We provide swift solutions for seamless communication. Inquire with us for more details and to place your order.</p>
+					<span class="categories">Optical Networking, Fiber Optics, Data Transmission</span>
+				</div>
+				<div class="link-box">
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div><!-- modal-04 end -->
+			<div id="modal-05" class="popup-modal slider mfp-hide">
+				<div class="media">
+					<img src="images/usmilitary.jpg" alt="Military Contractors" />
+				</div>
+				<div class="description-box">
+					<h4>Military Contractors</h4>
+					<p>We supply military-grade components to support defense and security operations. Trust in our expertise for critical missions. Inquire with us for more details and to place your order.</p>
+					<div class="categories">Military Contractors, Defense Equipment, Tactical Gear</div>
+				</div>
+				<div class="link-box">
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div><!-- modal-05 end -->
+			<div id="modal-06" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/satellite.jpg" alt="Satellite Communications" />
+				</div>
+				<div class="description-box">
+					<h4>Satellite Communications</h4>
+					<p>Optimize your satellite communication systems with our reliable components. We offer fast solutions to meet your operational needs. Inquire with us for more details and to place your order.</p>
+					<div class="categories">Satellite Communications, Space Technology, Signal Processing</div>
+				</div>
+				<div class="link-box">
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div><!-- modal-06 end -->
+			<div id="modal-07" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/robotics.jpg" alt="Robotics" />
+				</div>
+				<div class="description-box">
+					<h4>Robotics</h4>
+					<p>Power your robotics innovations with our advanced components. We provide solutions that drive performance and precision. Inquire with us for more details and to place your order.</p>
+					<div class="categories">Robotics, Automation, Artificial Intelligence</div>
+				</div>
+				<div class="link-box">
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div><!-- modal-07 end -->
+			<div id="modal-08" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/medical.jpg" alt="Medical" />
+				</div>
+				<div class="description-box">
+					<h4>Medical</h4>
+					<p>Deliver excellence in healthcare with our trusted medical components. We ensure high quality and quick delivery. Inquire with us for more details and to place your order.</p>
+					<div class="categories">Medical, Durable Medical Equipment, Healthcare Solutions</div>
+				</div>
+				<div class="link-box">
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div><!-- modal-08 end -->
+		</div> <!-- end row -->
+	</section> <!-- end portfolio -->
+
+	<!-- about
+	================================================== -->
+	<section id="about">
+		<div class="row section-head">
+			<div class="twelve columns">
+				<h1>About Us<span>.</span></h1>
+				<hr />
+				<p>Components USA was established in historic Salem, MA in 2008 and is driven by 33 years of sourcing experience.
+				</p>
+				<p>We supply active and passive electronic components from commercial grade to full military level. We also have expertise in connectors, switches, wire and cable. You can expect quick action from us which can result with parts on your dock in 24 to 48 hours in critical situations.
+				</p>
+			</div> <!-- end section-head -->
+		</div>
+		<div class="row mobile-no-padding">
+			<div class="process bgrid-half tab-bgrid-whole group">
+				<div class="bgrid">
+					<h3>Long Lead Time.</h3>
+					<p>We excel in providing solutions for components with long lead times.
+					</p>
+				</div>
+				<div class="bgrid">
+						<h3>Obsolete Components.</h3>
+						<p>We specialize in sourcing obsolete components that are hard to find.
+						</p>
+				</div>
+				<div class="bgrid">
+					<h3>Hard to Find.</h3>
+					<p>We thrive on the challenge of sourcing hard-to-find components.
+					</p>
+				</div>
+				<div class="bgrid">
+					<h3>Counterfeit Mitigation.</h3>
+					<p>We implement stringent counterfeit mitigation plans to ensure component authenticity.
+					</p>
+				</div>
+				<div class="bgrid">
+					<h3>Creative Solutions.</h3>
+					<p>With over 33 years of sourcing experience, we are able to develop creative engineering-driven solutions that open new supply options in even the most difficult situations. We work with many independent testing facilities worldwide and can develop a counterfeit mitigation plan that will ensure the quality and authenticity of components we supply.
+					</p>
+				</div>
+				<div class="bgrid">
+					<h3>We Solve Your Problems.</h3>
+					<p>We help solve your electronic components sourcing problems by searching our well-established, worldwide supply chains. If there is a solution for you out there, we will find it. We often pick up where most others give up.
+					</p>
+				</div>
+			</div> <!-- end process -->
+		</div> <!-- end row -->
+	</section> <!-- end about -->
+
+	<!-- contact
+	================================================== -->
+	<section id="contact">
+		<div class="row section-head">
+			<div class="twelve columns">
+				<h1>Contact Us<span>.</span></h1>
+				<hr />
+			</div>
+		</div> <!-- end section-head -->
+		<div class="row">
+			<div id="contact-form" class="six columns tab-whole left">
+				<!-- form -->
+				<form name="contactForm" id="contactForm" method="post" action="">
+					<fieldset>
+						<div class="group">
+							<input name="contactName" type="text" id="contactName" placeholder="Name" value=""
+								minLength="2" required />
+						</div>
+						<div>
+							<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
+								required />
+						</div>
+						<div>
+							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"
+								value="" />
+						</div>
+						<div>
+							<textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10"
+								cols="50" required></textarea>
+						</div>
+						<div>
+							<button class="submitform">Submit</button>
+							<div id="submit-loader">
+								<div class="text-loader">Sending...</div>
+								<div class="s-loader">
+									<div class="bounce1"></div>
+									<div class="bounce2"></div>
+									<div class="bounce3"></div>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</form> <!-- Form End -->
+				<!-- contact-warning -->
+				<div id="message-warning"></div>
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="icon-ok"></i>Your message was sent, thank you!<br />
+				</div>
+			</div>
+			<div class="six columns tab-whole right">
+				<p class="lead">Inquire with Components USA for all your electronic component sourcing needs. We are here to help you find the right solutions for your specific requirements.</p>
+				<h3 class="address">Snail Mail:</h3>
+				<p>
+					1 Fairview Avenue<br>
+					Salem, Massachusetts<br>
+					01970 US
+				</p>
+				<h3>Contact Numbers:</h3>
+				<p>Phone: (978) 740 3800<br>
+					Fax: (978) 740 3801
+				</p>
+				<h3>Email Addresses:</h3>
+				<p>Business Inquiries: inquire@components-usa.com<br>
+					Other Inquiries: hello@components-usa.com
+				</p>
+				<h3>Hours of Operation:</h3>
+				<p>Monday - Friday: 8:00AM - 6:00PM EST<br>
+					Saturday &amp; Sunday: 6:00AM - 12:00PM EST<br>
+					US National Holidays: Closed
+				</p>
+			</div>
+		</div> <!-- end row -->
+	</section> <!-- end contact -->
+
+	<!-- Footer
+	================================================== -->
+	<footer>
+		<div class="row">
+			<div class="twelve columns content group">
+				<div class="info">
+					<div class="footer-logo"></div>
+					<p>Need a reliable source for electronic components?
+						Components USA is your solution! We pick up where others give up!
+					</p>
+				</div>
+			</div>
+			<ul class="copyright">
+				<li>&copy; Copyright 2024 Components USA, LLC.</li>
+				<li>Made with &hearts; by <a href="https://fullstackboston.com/">Full Stack Boston</a></li>
+			</ul>
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#hero">Back to Top<i class="fa fa-angle-up"></i></a>
+			</div>
+		</div> <!-- end row -->
+	</footer> <!-- end footer -->
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+	================================================== -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script type="module" src="js/main.js"></script>
+</body>
+</html>
