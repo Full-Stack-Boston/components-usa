@@ -10,6 +10,9 @@ project credentials are **not** included; `firebase.js` is a no-op stub.
 [components-usa.com](https://components-usa.com) (prominent) with
 [compact.components-usa.com](https://compact.components-usa.com) as an alternate.
 
+**GitHub twins:** primary `jonaldoalix/components-usa` · quiet twin
+`Full-Stack-Boston/components-usa`.
+
 Layouts in this archive:
 
 - `prominent.components-usa.com/` — fuller marketing layout
