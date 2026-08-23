@@ -14,7 +14,7 @@
     "build": "node scripts/build.mjs"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "^4.1.10",
+    "@vitest/coverage-v8": "^4.1.11",
     "jsdom": "^27.0.1",
     "oxlint": "^1.71.0",
     "vitest": "^4.1.10"
