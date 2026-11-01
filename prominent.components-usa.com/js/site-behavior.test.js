@@ -160,6 +160,10 @@ describe("prominent site-behavior", () => {
   it("exposes easing helpers used by MoveTo", () => {
     expect(easeFunctions.easeInQuad(1, 0, 10, 2)).toBeCloseTo(2.5);
     expect(easeFunctions.easeOutQuad(1, 0, 10, 2)).toBeCloseTo(7.5);
+    // First half of the curve (t < midpoint after normalize).
+    expect(easeFunctions.easeInOutQuad(0.5, 0, 10, 2)).toBeCloseTo(1.25);
+    expect(easeFunctions.easeInOutCubic(0.5, 0, 10, 2)).toBeCloseTo(0.625);
+    // Midpoint and second half.
     expect(easeFunctions.easeInOutQuad(1, 0, 10, 2)).toBeCloseTo(5);
     expect(easeFunctions.easeInOutCubic(1, 0, 10, 2)).toBeCloseTo(5);
     expect(easeFunctions.easeInOutQuad(3, 0, 10, 2)).toBeCloseTo(5);

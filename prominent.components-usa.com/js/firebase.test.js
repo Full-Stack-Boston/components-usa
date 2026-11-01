@@ -12,9 +12,20 @@ describe("prominent firebase-config", () => {
     expect(firebaseConfig.appId).toContain("prominent-archive-demo");
   });
 
-  it("rejects incomplete configs", () => {
+  it("rejects incomplete or non-object configs", () => {
     expect(isValidFirebaseWebConfig(null)).toBe(false);
+    expect(isValidFirebaseWebConfig("not-an-object")).toBe(false);
     expect(isValidFirebaseWebConfig({ apiKey: "x" })).toBe(false);
+    expect(
+      isValidFirebaseWebConfig({
+        apiKey: "",
+        authDomain: "x",
+        projectId: "x",
+        storageBucket: "x",
+        messagingSenderId: "x",
+        appId: "x",
+      }),
+    ).toBe(false);
   });
 });
 
@@ -28,8 +39,18 @@ describe("prominent firebase-init", () => {
     expect(result.analytics.ok).toBe(true);
   });
 
-  it("requires SDK functions", () => {
+  it("requires both SDK functions", () => {
     expect(() => initFirebase({})).toThrow(/sdk functions/i);
+    expect(() =>
+      initFirebase({
+        initializeAppFn: () => ({}),
+      }),
+    ).toThrow(/sdk functions/i);
+    expect(() =>
+      initFirebase({
+        getAnalyticsFn: () => ({}),
+      }),
+    ).toThrow(/sdk functions/i);
   });
 
   it("throws on invalid config", () => {

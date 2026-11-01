@@ -21,10 +21,11 @@ export default defineConfig({
         "compact.components-usa.com/js/site-behavior.js",
       ],
       thresholds: {
-        statements: 80,
-        branches: 80,
-        functions: 80,
-        lines: 80,
+        // Hit 100% in suite; CI floor 95% so we do not silently slip.
+        statements: 95,
+        branches: 95,
+        functions: 95,
+        lines: 95,
       },
     },
   },
